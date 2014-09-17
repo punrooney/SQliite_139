@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/edt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:text="Age" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_hei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_age"
+        android:ems="10"
+        android:text="Height" />
+
+    <EditText
+        android:id="@+id/edt_wei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_hei"
+        android:ems="10"
+        android:text="Weight" />
+
+    <EditText
+        android:id="@+id/edt_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_wei"
+        android:ems="10"
+        android:text="Sex" />
+
+    <EditText
+        android:id="@+id/edt_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_sex"
+        android:ems="10"
+        android:text="Religion" />
+
+    <EditText
+        android:id="@+id/edt_tal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_rel"
+        android:ems="10"
+        android:text="Talent" />
+
+    <EditText
+        android:id="@+id/edt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/edt_smo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_add"
+        android:ems="10"
+        android:text="Smoke" />
+
+    <Button
+        android:id="@+id/btnkk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_smo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Save" />
+
+</RelativeLayout>
